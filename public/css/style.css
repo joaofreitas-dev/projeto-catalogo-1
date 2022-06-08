@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 150px;
+}
+
+body {
+    background-color: #45398b;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-list li {
+    color: #FFF;
+    list-style: none;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 600;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.container-logo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 21px;
+}
+
+.logo {
+    width: 8vh;
+
+}
+
+.logo-text {
+    color: #FFF;
+    text-align: left;
+    font-weight: 800;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #272728;
+    height: 8vh;
+    margin-bottom: 2rem;
+
+}
+
+
+main {
+    margin: 0 10rem 0 10rem;
+    width: auto;
+}
+
+.banner-text {
+    background: rgba(251, 251, 251, 0.15);
+    background-image: url('https://i.pinimg.com/originals/30/4b/0b/304b0ba836f045e4fc04cf8f6391e991.jpg');
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+    color: #FFF;
+    height: 342px;
+    margin-bottom: 2rem;
+}
+
+.title-section {
+    width: 100%;
+    height: 4rem;
+    color: #FFF;
+    font-weight: 600;
+    text-align: center;
+    background-color: #0000009c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 2rem 0;
+}
+
+#cards {
+    background: rgba(251, 251, 251, 0.15);
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+    width: 100%;
+    color: #FFF;
+    height: auto;
+    gap: 10px;
+}
+
+.card {
+    background: rgb(31 31 31 / 62%);
+    display: flex;
+    width: 31rem;
+    color: #FFF;
+    height: auto;
+    margin: 2rem;
+    flex-wrap: wrap;
+    padding: 1rem 2rem 2rem 2rem;
+    gap: 10px;
+    align-items: stretch;
+    justify-content: center;
+    align-content: stretch;
+    flex-direction: column;
+}
+
+.title-game {
+    margin: auto;
+    padding: auto;
+}
+
+.card img {
+    max-width: 32rem;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
+
+.section-form {
+    background: rgba(251, 251, 251, 0.15);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5rem;
+}
+
+.form-cadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+form.form-cadastro label {
+    color: #FFF;
+    margin: 1rem 0 1rem 0;
+}
+
+form.form-cadastro input {
+    width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    outline: none;
+    border: solid 2px rgb(169, 169, 169);
+    margin-bottom: 1rem;
+}
+
+.btnCadastrar {
+    padding: 0.6rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    font-size: 1rem;
+    background-color: #54105d;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s;
+    border: rgba(251, 251, 251, 0.15);
+}
+
+.btnAtualizar {
+    padding: 0.6rem;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
+    font-size: 1rem;
+    background-color: #54105d;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.3s;
+    border: rgba(251, 251, 251, 0.15);
+}
+
+.btnCadastrar:hover {
+    color: #54105d;
+    background-color: #FFF;
+}
+
+.btnAtualizar:hover {
+    color: #54105d;
+    background-color: #FFF;
+}
+
+ .btn-alteracao {
+    display: flex;
+    color: #000;
+    font-size: 1.2em;
+    width: auto;
+    height: 12px;
+    padding: 12px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #42ac52;
+    border-radius: 10px;
+    transition: 1s;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+.btn-alteracao:hover {
+    color: #42ac52;
+    border: solid #000 1px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+   .btn-alteracao2 {
+    display: flex;
+    color: #FFF;
+    font-size: 1.2em;
+    width: auto;
+    height: 12px;
+    padding: 12px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #c30d0d;
+    border-radius: 10px;
+    transition: 1s;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  
+   .btn-alteracao2:hover {
+    color: rgb(255, 0, 0);
+    background-color: rgb(249, 249, 249);
+    border: solid #000 1px;
+  }
+
+footer {
+    margin: auto;
+    margin-top: 5rem;
+    color: #FFFF;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #272728;
+    height: 8vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+}

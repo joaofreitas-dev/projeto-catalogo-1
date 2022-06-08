@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://static.thenounproject.com/png/1451262-200.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Catálogo de jogos</title>
+</head>
+
+<body>
+  <nav>
+    <div class="container-logo">
+      <img src="img/pngegg.png" alt="game logo" class="logo">
+      <span class="logo-text">GEEK GAMES</span>
+    </div>
+
+    <ul class="nav-list">
+      <li><a href="/">Home</a></li>
+      <li><a href="/games">Jogos</a></li>
+      <li><a href="/cadastro">Cadastrar Novo Jogo</a></li>
+
+  </nav>
+
+  <main>
+    <section class="banner-text">
+      <h1>GEEK GAMES</h1>
+      <p>Descubra um novo mundo de aventuras</p>
+    </section>
+
+
+    <div class="title-section">
+      <a name="games"></a>
+      <h2>GAMES</h2>
+    </div>
+    <section id="cards">
+
+
+
+      <% jogos.forEach((jogo)=> { %>
+        <div class="card">
+          <a href="/detalhes/<%=jogo.id %>">
+            <h2 class="title-game">
+              <%= jogo.titulo %>
+            </h2>
+            <img src="<%= jogo.imagem %>" alt="<%= jogo.titulo %>">
+            <p class="descricao"><strong>Descrição:</strong>
+              <%= jogo.descricao %>
+            </p>
+            <p><strong>Gênero:</strong>
+              <%= jogo.genero %>
+            </p>
+            <p><strong>Preço: R$ </strong>
+              <%= jogo.preco %>
+            </p>
+
+            <h3>Click par mostrar mais</h3>
+            
+          </a>
+
+        </div>
+
+        <%})%>
+    </section>
+
+
+
+  </main>
+
+  <footer>
+    <h3>Desenvolvido por: João Freitas</h3>
+    <a href="http://github.com/joaofreitas-dev" target="_blank">Perfil no GitHub</a>
+  </footer>
+
+
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

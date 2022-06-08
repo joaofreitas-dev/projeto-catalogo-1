@@ -1,0 +1,29 @@
+{
+  "name": "projeto-catalogo-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaofreitas-dev/projeto-catalogo-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaofreitas-dev/projeto-catalogo-1/issues"
+  },
+  "homepage": "https://github.com/joaofreitas-dev/projeto-catalogo-1#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

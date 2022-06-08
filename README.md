@@ -1,6 +1,6 @@
-# Link do Deploy: https://pokedex-mvc-joaofreitas.herokuapp.com/#pokemons
+# Link do Deploy: https://catalogo-games.herokuapp.com/
 
-# Pokédex
+# Geek Games
 
 Um projeto teste para armazenar dados de pokemons.
 
